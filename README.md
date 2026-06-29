@@ -39,9 +39,3 @@ python -m ipykernel install --user \
   --name aws_neuronx_pytorch_2_9 \
   --display-name "Python (NeuronX PyTorch 2.9)"
 ```
-
-### 6. Launch Jupyter
-```bash
-jupyter notebook --ip=0.0.0.0 --no-browser
-```
-Then open the printed URL in your browser, open `resnet50-inference-on-trn1-tutorial.ipynb`, and select kernel **Python (NeuronX PyTorch 2.9)**.
