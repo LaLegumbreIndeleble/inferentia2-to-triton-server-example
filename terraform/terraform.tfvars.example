@@ -1,0 +1,7 @@
+# terraform.tfvars — fill in your actual values before running
+
+aws_region        = "us-east-1"
+key_pair_name     = "your-key-pair"
+security_group_id = "sg-xxxxxxxxxxxxxxxxx"
+subnet_id         = "subnet-xxxxxxxxxxxxxxxxx"
+instance_type     = "inf2.xlarge"
